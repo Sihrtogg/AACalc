@@ -455,6 +455,8 @@ function updateunits () {
 			
 		}
 		if 	($_REQUEST['ruleset'] == 'Revised' ) {
+			$unitspecs['JFig']['defend']=5;
+			$unitspecs['JFig']['attack']=3;
 			$unitspecs['Bom']['cost']=15;
 			$unitspecs['Tra']['defend']=1;
 			$unitspecs['Tra']['cost']=8;
